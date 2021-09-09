@@ -66,3 +66,10 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+Create HOC folder in SRC and add AUX.js and move With errorhandling to that 
+In AUX.js add below code
+const aux = (props) => props.children;
+
+export default aux;
