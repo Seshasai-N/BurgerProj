@@ -1,0 +1,17 @@
+.Signup{
+    background-color: #C0C0C0;
+    margin: 100px auto;
+    width: 500px;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media(min-width:600px){
+    .Contact{
+        margin: 20px auto;
+        width:500px
+    }
+}
